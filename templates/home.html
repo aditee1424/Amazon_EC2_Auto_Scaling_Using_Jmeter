@@ -1,0 +1,39 @@
+<html>
+<body>
+    <h1>Welcome Teacher</h1>
+    <form action="/home" method="GET">
+        ENTER TEACHER'S NAME:<br>
+        <input type="text" value="David Levine" name="teacher" maxlength="200" width="60">
+        <input type="submit" value="submit">
+      </form>
+      <h2>The name of teacher is:<br>
+        {{result}}</h2>
+
+
+            <form action="/studentname" method="GET">
+               GET STUDENT NAME <input type="submit" value="ENTER">
+              </form>
+              {{result2}}
+
+            <form action="/question" method="GET">
+                ENTER QUESTION:<br>
+                <input type="text" value="What is 2+2?" name="question" maxlength="200" width="60">
+                <input type="submit" value="submit">
+              </form>
+
+              <form action="/answer" method="GET">
+                GET ANSWER :<br>
+                <input type="submit" value="ENTER">
+              </form>
+              {{answer}}
+
+              <form action="/grades" method="GET">
+                ENTER Grades for student:<br>
+                Name:<input type="text" value="Aditee Dakhane" name="student" maxlength="200" width="60">
+                Grades:<input type="text" value="50" name="grade" maxlength="200" width="60">
+                <input type="submit" value="submit">
+              </form>
+              {{answer}}
+        
+</body>
+</html>
