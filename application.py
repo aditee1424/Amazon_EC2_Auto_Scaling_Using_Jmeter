@@ -6,12 +6,12 @@ import pymysql
 application = Flask(__name__)
 application.debug=True
 # change this to your own value
-application.secret_key = 'xEQaD4qORO7cAmeoNOcLoBeIy5WV6KfLPylRIMn+' 
+application.secret_key = '' 
 
-host = 'aditee.cyzpdl0o2sjw.us-west-2.rds.amazonaws.com'
-user = 'root'
-password = 'Aditi14#'
-database = 'aditeedb'
+host = ''
+user = ''
+password = ''
+database = ''
  
 connection = pymysql.connect(host, user, password, database)
 
